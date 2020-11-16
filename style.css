@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 25;
+ }
+  
+html {
+    display: block;
+  }
+
+body {
+    font-family: 'Itim', cursive;
+    font-weight: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+#header-nav{
+    background-color: gray;
+    border-radius:0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; 
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    font-family: 'Concert One', cursive;
+    color: black;
+    font-size: 1.5 em;
+    text-shadow: 1px 1px 1px white;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+/*Body*/
+
+h2 {
+    font-family: 'Concert One', cursive;
+    color: black;
+    text-align: center;
+    position: relative;
+    float:flex;
+    top: 30px;
+}
+
+h3 {
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.box {
+    border:none;
+    background-color: grey;
+    font-family: 'Concert One', cursive;
+    color: black;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+.container .row ul li{
+    list-style-type: none;
+    float: left;
+    width: auto;
+    height: auto;
+    background: gray;
+    margin: 20px;
+    border: none;
+    padding: 10px; 
+    background-color: gray;
+    font-display: justify;
+}
+
+/*******Large Devices for Windows Laptop Size and iPad devices*******/
+@media screen and (min-width: 800px) and (max-width: 1440px) {
+  .navbar-toggler {
+      visibility: hidden;
+  } 
+  #navbar-text {
+      visibility: hidden;
+  }
+}
+
+/***Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap**/
+    #navbar-text {
+        font-family: 'Concert One', cursive;
+        text-align: center;
+        visibility: visible;
+    }
+   .navbar-toggler {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid black;
+        border-radius: 4px;
+        visibility: visible;
+    }
+ 
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+    	color: #8e87f0 !important;
+    	background-color: #e2bcbc;
+}
+
+/**Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) {
+    #navbar-text {
+        font-family: 'Concert One', cursive;
+        text-align: center;
+        visibility: visible;
+    }
+   .navbar-toggler {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid black;
+        border-radius: 4px;
+        visibility: visible;
+    }
+
+    }
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+    	color: #96cf11 !important;
+    	background-color: #FFFFFF;
+}
+
+
+/**Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) {
+    #navbar-text {
+        font-family: 'Concert One', cursive;
+        text-align: center;
+        visibility: visible;
+    }
+   .navbar-toggler {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid black;
+        border-radius: 4px;
+        visibility: visible;
+    }
+  
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+    	color: #d8db0b !important;
+    	background-color: #FFFFFF;
+}
+}
+
+/**Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) {
+.navbar-toggler {
+      visibility: hidden;
+  } 
+  #navbar-text {
+      visibility: hidden;
+  }
+}
+
+/**Extra large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px) {
+.navbar-toggler {
+      visibility: hidden;
+  } 
+  #navbar-text {
+      visibility: hidden;
+  }
+ 
+}
